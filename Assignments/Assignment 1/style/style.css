@@ -1,0 +1,33 @@
+/* Public sytle */
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* /Public sytle */
+
+/* Nav Section */
+nav{
+    display: flex;
+}
+nav > div:first-child{
+    margin: 1rem;
+    color:darkgreen;
+    font-weight: bolder;
+}
+nav > div span i{
+    color: brown;
+    padding: 0.1rem 0.3rem;
+}
+
+nav #jumpto{
+    display: inline-flex;
+    align-items: center;
+    flex-grow: 1 1;
+}
+
+nav #jumpto > div{
+margin-left: 1rem;
+}
+/* /Nav Section */
