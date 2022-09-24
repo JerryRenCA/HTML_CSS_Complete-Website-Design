@@ -1,33 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
+
 /* Public sytle */
-*{
+* {
     padding: 0%;
-    margin: 0%;
+    margin: auto;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: 'Poppins',sans-serif;
+ 
+}
+
+section > div:first-child >span{
+    font-family: 'Satisfy',sans-serif;
+    font-size: 3rem;
+    color: darkgreen;
+    text-shadow: 1px 1px 4px;
+}
+section > div:nth-child(2) >span{
+    font-family: 'poppins';
+    font-size: 2rem;
+    color: darkolivegreen;
+    text-shadow: 1px 1px 2px;
+}
+.container{
+    width: 100vw;
 }
 /* /Public sytle */
 
 /* Nav Section */
-nav{
+nav {
+    position: sticky;
+    top: 10px;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 5px 1px gray;
+    font-size: 1.5rem;
 }
-nav > div:first-child{
+
+nav>div:first-child a{
     margin: 1rem;
-    color:darkgreen;
+    color: darkgreen;
     font-weight: bolder;
+    text-shadow: 1px 1px 20px lightgreen;
 }
-nav > div span i{
+nav #icon a:hover{
+    color: rebeccapurple;
+}
+nav>div span i {
     color: brown;
     padding: 0.1rem 0.3rem;
 }
 
-nav #jumpto{
-    display: inline-flex;
+nav #jumpto {
+    display: flex;
     align-items: center;
-    flex-grow: 1 1;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    /* width: 60vw; */
+    flex-grow: 1;
+    /* background-color: bisque; */
+    
+}
+nav #jumpto div a{
+    color: darkcyan;
+    /* background-color: aquamarine; */
+    
 }
 
-nav #jumpto > div{
-margin-left: 1rem;
+nav #jumpto>div {
+    margin-left: 1rem;
 }
+
+nav #social{
+    margin-right: 1rem;
+}
+nav #social i{
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+nav #menu-bar{
+    display: none;
+}
+nav #divspace{
+    flex-grow: 10;
+    /* display: none; */
+    color: white;
+}
+
 /* /Nav Section */
+
+/* Banner Section */
+section#banner{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin: auto;
+    width: 100vw;
+    height: 60vh;
+}
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    background-position: right;
+}
+#banner>div{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 40vw;
+    margin: 0%;
+}
+
+#banner h1{
+    
+    color: white;
+    font-family: 'Satisfy',sans-serif;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+#banner p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+/* /Banner Section */
+
+/* Food Section */
+#foodsection{
+    margin: auto;
+}
+#foodsection >div:first-child{
+    text-align: center;
+    padding-top: 2rem;
+}
+#foodsection >div:nth-child(2){
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#foodsection >div:nth-child(3){
+    text-align: center;
+}
+#foodsection .foodgrid{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+/* margin: auto; */
+background-color:beige;
+}
+#foodsection .foodgrid>div{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+#foodsection img{
+    width: 100%;
+    /* background-color: aqua; */
+}
+#foodsection .foodtitle{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    color:cadetblue;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+#foodsection .foodgrid .foodlistitem div:last-child span:first-child{
+    text-decoration: line-through;
+    color: red;
+}
+#foodsection .foodgrid .foodlistitem div:last-child span:last-child{
+    color: green;
+    font-size: 1.2rem;
+}
+/* /Food Section */
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    /* margin-bottom: 2rem; */
+}
+footer .rowlist{
+    display: flex;
+    flex-direction: column;
+}
+footer .rowlist .item{
+    margin-left: 0%;
+}
+footer .rowlist .title{
+color: darkcyan;
+font-size: 1.5rem;
+line-height: 2.75rem;
+text-transform: uppercase;
+}
+
+footer .rowlist .item input[type='button']{
+    color: red;
+    padding: 0.1rem;
+    
+}
+footer .rowlist .item input[type='button']:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

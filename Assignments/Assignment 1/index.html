@@ -9,29 +9,136 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <div>
-                <span><i class="fa fa-camera" aria-hidden="true"></i>Puppies Park</span>
+            <div id="icon">
+                <a href="#"><span>
+                        <i class="fa fa-camera" aria-hidden="true"></i>Puppy Park</span></a>
             </div>
             <div id="jumpto">
-                <div id="home">home</div>
-                <div id="banner">About</div>
-                <div id="">home</div>
-                <div id="home">home</div>
+                <div> <a href="fooddetail.html"> food</a></div>
+                <div><a href="#">toy</a></div>
+                <div><a href="#">house</a></div>
+                <div><a href="#">Rehome</a></div>
+                <div><a href="about.html">about</a></div>
             </div>
+            <div id="divspace"> DivSpaces</div>
             <div id="social">
+                <i id="menu-bar" class="fas fa-bars" aria-hidden="true"></i>
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <i class="fab fa-twitter" aria-hidden="true"></i>
             </div>
+
         </nav>
     </header>
 
+    <section id="banner">
+        <div>
+            <h1> Welcome to Puppy Park</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo facilis eaque veritatis ipsa
+                consectetur suscipit sunt quasi alias harum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, odit suscipit. Mollitia dicta perspiciatis
+                sequi quos cupiditate explicabo similique molestias ducimus? Dolorem necessitatibus excepturi, ab unde
+                saepe repudiandae optio perferendis.</p>
+        </div>
+        <div class="griddiv">
+            <div class="item">
+                <img src="" alt="img1">
+                <span>Fast Delivery</span>
+            </div>
+            <div class="item">
+                <img src="" alt="img2">
+                <span>Best quality</span>
+            </div>
+            <div class="item">
+                <img src="" alt="img3">
+                <span>professional service</span>
+            </div>
+            <div class="item">
+                <img src="" alt="img4">
+                <span>24/7 support</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="foodsection" class="container"> 
+        <div> <span>food</span> </div>
+        <div> <span>Our top food</span> </div>
+        <div class="foodgrid">
+            <div class="foodlistitem">
+                <div class="foodtitle">
+                    food1
+                </div>
+                <div> <img src="images/puppyfood1.png" alt="Delicious food"></div>
+                <div>best price: <span>$2</span>  <span>$2</span></div>
+            </div>
+            <div class="foodlistitem">
+                <div class="foodtitle">
+                    food2
+                </div>
+                <div> <img src="images/puppyfood1.png" alt="Delicious food"></div>
+                <div>best price: <span>$2</span>  <span>$2</span></div>
+            </div>
+            <div class="foodlistitem">
+                <div class="foodtitle">
+                    food3
+                </div>
+                <div> 
+                    <img src="images/puppyfood1.png" alt="Delicious food"></div>
+                <div>best price: <span>$2</span>  <span>$2</span></div>
+            </div>
+            <div class="foodlistitem">
+                <div class="foodtitle">
+                    food4
+                </div>
+                <div> <img src="images/puppyfood1.png" alt="Delicious food"></div>
+                <div>best price: <span>$2</span>  <span>$2</span></div>
+            </div>
+            <div class="foodlistitem">
+                <div class="foodtitle">
+                    food5
+                </div>
+                <div> <img src="images/puppyfood1.png" alt="Delicious food"></div>
+                <div>best price: <span>$2</span>  <span>$2</span></div>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <div class="rowlist">
+            <div class="title">Food</div>
+            <div class="item "> <i class="fas fa-arrow-right"></i> Chicken flavor</div>
+            <div class="item"><i class="fas fa-arrow-right"></i> beef flavor</div>
+            <div class="item"><i class="fas fa-arrow-right"></i> mixed flavor</div>
+            <div class="item"><i class="fas fa-arrow-right"></i> more...</div>
+        </div>
+        <div class="rowlist">
+            <div class="title">Link</div>
+            <div class="item"><i class="fas fa-arrow-right"></i> <a href="https://www.amazon.ca">amazon</a></div>
+            <div class="item"><i class="fas fa-arrow-right"></i> <a href="https://www.alibaba.com">alibaba</a></div>
+            <div class="item"><i class="fas fa-arrow-right"></i> <a href="https://www.bestbuy.ca">bestbuy</a></div>
+            <div class="item"><i class="fas fa-arrow-right"></i> <a href="https://www.wish.com">wish</a></div>
+        </div>
+        <div class="rowlist">
+            <div class="title">contact</div>
+            <div class="item">puppy park</div>
+            <div class="item">1416 puppy street, halifax, NS 010101</div>
+            <div class="item">tel:(902)123-45678</div>
+            <div class="item">email: puppypark@gmail.com</div>
+        </div>
+        <div class="rowlist">
+            <div class="title">subscribe</div>
+            <div class="item">Your email:</div>
+            <div class="item"><input type="text" placeholder="your email"></div>
+            <div class="item button"><input type="button" value="subscribe" onclick="btn_click()"></div>
+            <div class="item">more information</div>
+        </div>
+    </footer>
 </body>
 
 </html>
