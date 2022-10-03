@@ -1,0 +1,19 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+label{
+    line-height: 1.5rem;
+}
+input{
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    line-height: 1.5rem;
+    border: none;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+}
+
