@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.text_transform_none{
+    text-transform: none;
+}
+
+/********************************************* display***** */
+.flex{
+    display: flex;
+}
+
+.inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.inline_block{
+    display: inline-block;
+}
+.flex_column{
+    flex-direction: column;
+}
+.flex_grow_1{
+    flex-grow: 1;
+}
+.flex_grow_2{
+    flex-grow: 1;
+}
+.flex_grow_3{
+    flex-grow: 1;
+}
+
+/********************************************** width *******/
+.width_100{
+    width: 100%;
+}
+.width_95{
+    width: 100%;
+}
+.width_50{
+    width: 100%;
+}
+.width_30{
+    width: 100%;
+}
+
+/********************************************* padding & margin *******/
+.padding_left_10px{
+    padding-left: 10px;
+}
+.padding_left_5px{
+    padding-left: 5px;
+}
+
+.padding_right_10px{
+    padding-right: 10px;
+}
+
+.padding_right_5px{
+    padding-right: 5px;
+}
+
+.margin__left_auto{
+    margin-left: auto;
+}
+
+.margin__right_auto{
+    margin-right: auto;
+}
+
+/********** color **********/
+.text_color_white{
+    color: white;
+}
+.text_color_black{
+    color: black;
+}
+.text_color_grey_eee{
+    color: #eee;
+}
+.text_color_grey_666{
+    color: #666;
+}
+
+/************************************************ background *********/
+
+/************************************************ background *********/
+
