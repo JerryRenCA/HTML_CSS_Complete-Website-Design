@@ -1,3 +1,21 @@
+/* @import url(../../../global/css/global_style.css); */
 *{
-    
+    /* border: 1px solid red; */
+}
+
+.container{
+    width: 98%;
+    /* margin: auto; */
+    margin-top: 5rem;
+}
+.subcontainer>div{
+    display: flex;
+}
+
+.main_pic{
+    /* width: 800px; */
+
+    /* height: 600px; */
+    margin: auto;
+
 }
