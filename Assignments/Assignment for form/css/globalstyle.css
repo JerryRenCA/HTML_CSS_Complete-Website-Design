@@ -1,12 +1,19 @@
 .container{
     width: 96%;
     margin: auto;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
 }
 
 .sub_container{
     width: 100%;
-    padding: 0.4rem 0;
+    /* padding: 0.4rem 0; */
+}
+.text_transform_none{
+    text-transform: none;
+}
+.position_toright{
+    position: absolute;
+    right: 0%;
 }
 
 .flex{
@@ -34,14 +41,40 @@
     flex-grow: 3;
 }
 
+.flex_basis_50{
+    flex-basis: 50%;
+}
+.flex_basis_40{
+    flex-basis: 40%;
+}
+.flex_basis_30{
+    flex-basis: 30%;
+}
+
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.flex_align_self_end{
+    align-self: flex-end;
+}
 .display_block{
     display: block;
 }
-
+.display_inline_block{
+    display: inline-block;
+}
+.display_inline{
+    display: inline;
+}
 .color_blue{
     color: darkblue;
 }
-
+.text_color_lightgray{
+    color: #999;
+}
+.text_color_black{
+    color:black;
+}
 .background_color_light_grey{
     background-color: #eee;
 }
@@ -53,7 +86,9 @@
 .width_100{
     width: 100%;
 }
-
+.width_80{
+    width: 80%;
+}
 .width_50{
     width: 50%;
 }
@@ -78,7 +113,7 @@
     font-size: 0.75rem;
 }
 
-.font_bold{
+.font_bolder{
     font-weight: bolder;
 }
 
@@ -87,6 +122,15 @@
 }
 .padding_left_10px{
     padding-left: 10px;
+}
+.padding_left_5px{
+    padding-left: 5px;
+}
+.padding_right_10px{
+    padding-right: 10px;
+}
+.padding_top_20px{
+    padding-top: 20px;
 }
 .padding_top_10px{
     padding-top: 10px;

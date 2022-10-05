@@ -7,9 +7,10 @@
 }
 label{
     line-height: 1.5rem;
+    padding-top: 5px;
 }
-input{
-    display: block;
+input[type="text"]{
+    display: inline-block;
     width: 100%;
     background-color: #eee;
     line-height: 1.5rem;
@@ -17,3 +18,30 @@ input{
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 
+form{
+    padding: 20px 0;
+}
+form .gender_identity > *{
+padding-right: 20px;
+
+}
+
+form .gender_identity input:last-child{
+    width: auto;
+    right: 0%;
+}
+
+form .aline{
+    border-bottom: 1px solid lightblue;
+
+}
+
+form .update_date{
+
+   /* position: absolute; */
+   text-align: right;
+   
+   padding-top: 30px;;
+   /* bottom: 0; */
+   /* z-index: 100; */
+}

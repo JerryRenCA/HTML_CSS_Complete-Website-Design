@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NSCC Application</title>
     <link rel="stylesheet" href="css/globalstyle.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,31 +13,313 @@
 <body>
 
     <form action="#" class="container">
-        <div class="sub_container color_blue font_bold">NSCC program application</div>
+        <div class="sub_container color_blue font_bolder ">NSCC program application</div>
         <div class="fields_section sub_container">
-            <div>
-                <div ><b class=" color_blue ">personal information</b> (please print clearly)</div>
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">personal information</b> (please print clearly)</div>
                 <div class="padding_top_10px width_100">
                     <div class="field_columnshow">
                         <label for="full_name">full name (first, middle, last)</label>
                         <input type="text">
+                        <div class="font_size_s">(This name will appear in all communications, class lists, and on your
+                            credential)</div>
+
                     </div>
+
                     <div class="flex flex_row padding_top_5px">
                         <div class="field_columnshow flex_grow_3">
                             <label for="">other name(first,last)</label>
                             <input type="text">
+                            <div class="font_size_s">(if another name appears on your supporting
+                                documentation/transcripts inlude it here. eg:
+                                Maiden name)</div>
                         </div>
                         <div class="field_columnshow  padding_left_10px">
                             <label for="full_name">date of birth(month/day/year)</label>
                             <input type="text">
                         </div>
-
                     </div>
-                    <div class="font_size_s">(if another name appears on your supporting documentation/transcripts inlude it here. eg:
-                        Maiden name)</div>
 
+                    <div class="padding_top_10px  gender_identity flex flex_row ">
+                        <label for="">gender identity:</label>
+                        <input type="checkbox" name="" id="male" class="padding_left_10px">
+                        <label for="male">male</label>
+                        <input type="checkbox" name="" id="female" class="padding_left_10px">
+                        <label for="female">female</label>
+                        <input type="checkbox" name="" id="non_binary" class="padding_left_10px">
+                        <label for="non_binary">Non-bianary/another identity:</label>
+                        <input type="text" name="" id="" class="flex_grow_1">
+                    </div>
+
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_1">
+                            <label for="">apartment number</label>
+                            <input type="text">
+
+                        </div>
+                        <div class="field_columnshow  padding_left_10px flex_grow_3">
+                            <label for="full_name">mailing address(street address, rural route or P.O. Box)</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="">city/town</label>
+                            <input type="text">
+
+                        </div>
+                        <div class="field_columnshow  padding_left_10px flex_grow_1">
+                            <label for="full_name">province</label>
+                            <input type="text">
+                        </div>
+                        <div class="field_columnshow  padding_left_10px flex_grow_2">
+                            <label for="full_name">country</label>
+                            <input type="text">
+                        </div>
+                        <div class="field_columnshow  padding_left_10px flex_grow_2">
+                            <label for="full_name">postal code</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_basis_30">
+                            <label for="">home telephone</label>
+                            <div class="flex flex_row "><input type="text" class="flex_grow_2">-<input type="text"
+                                    class="flex_grow_2">-<input type="text" class="flex_grow_3"></div>
+
+
+                        </div>
+                        <div class="field_columnshow  padding_left_10px flex_basis_30">
+                            <label for="full_name">cell phone</label>
+                            <div class="flex flex_row "><input type="text" class="flex_grow_2">-<input type="text"
+                                    class="flex_grow_2">-<input type="text" class="flex_grow_3"></div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="">email address</label>
+                            <input type="text">
+                            <div class="font_size_s">(we will correspond with you via this email address. please ensure
+                                it is secure and accessible)</div>
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">NSCC student ID number(if you have one)</label>
+                            <input type="text">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="aline subcontainer padding_top_20px"></div>
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">english language proficiency</b> </div>
+                <div class="padding_top_10px width_100">
+                    <div class="padding_top_10px  gender_identity flex flex_row ">
+                        <label for="">is english your first language?</label>
+                        <input type="checkbox" name="" id="male" class="padding_left_10px">
+                        <label for="male">yes</label>
+
+                        <input type="checkbox" name="" id="non_binary" class="padding_left_10px">
+                        <label for="non_binary">No, my first language is:</label>
+                        <input type="text" name="" id="" class="flex_grow_1">
+                    </div>
+                </div>
+            </div>
+            <div class="aline subcontainer padding_top_20px"></div>
+
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">citizenship status</b> </div>
+                <div class="padding_top_10px width_100">
+                    <div class="padding_top_10px  gender_identity flex flex_row flex_wrap">
+                        <div> <input type="checkbox" name="" id="male" class="padding_left_10px">
+                            <label for="male">canadian citizen</label>
+                        </div>
+                        <div> <input type="checkbox" name="" id="male" class="padding_left_10px">
+                            <label for="male">permanent resident(copy of permanent resident card required)</label>
+                        </div>
+                        <div> <input type="checkbox" name="" id="male" class="padding_left_10px">
+                            <label for="male">intenational student</label>
+                        </div>
+                        <div> <input type="checkbox" name="" id="male" class="padding_left_10px">
+                            <label for="male">refugee with protected person status</label>
+                        </div>
+                        <div class="">
+                            <input type="checkbox" name="" id="non_binary"
+                                class="padding_left_10px display_inline_block">
+
+                            <label for="non_binary" class="display_inline_block">other:</label>
+
+                        </div>
+                        <div class="flex_grow_1">
+                            <!-- <div class="display_inline_block "> -->
+                            <input type="text" name="" id="">
+                            <label for="" class="font_size_s">(country of citizenship)</label>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aline subcontainer padding_top_20px"></div>
+
+
+
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">program choices</b></div>
+                <div class="padding_top_10px width_100">
+                    <div class="padding_top_5px text_transform_none">you can apply for two program/campus combinations
+                        with one application
+                        fee. Changing one or both of your original two choices will require the submission of a new
+                        applicatio nan fee. Your application will be considered for the next intake for which you are
+                        eligible.</div>
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="" class="text_transform_none">First/prefered program choice</label>
+                            <input type="text">
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">campus/location</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="" class="text_transform_none">Second program choice(leave blank if you do not
+                                have a second choice)</label>
+                            <input type="text">
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">campus/location</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- <div class="aline subcontainer padding_top_20px"></div> -->
+                </div>
+            </div>
+
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">continuing care applications must complete the following:</b></div>
+                <div class="padding_top_10px width_100">
+                    <div class="padding_top_5px  ">
+                        <span class="padding_right_10px text_transform_none">Have you ever been convicted of a criminal
+                            offence
+                            for which you have not received a pardon? </span>
+                        <input type="checkbox" name="" id="" class=""><label for=""
+                            class="padding_right_10px">yes</label>
+                        <input type="checkbox" name="" id=""><label for="">no</label>
+                    </div>
+                    <div class="text_transform_none">
+                        For more information, please review additional admission requirements.
+                    </div>
+
+                    <div class="aline subcontainer padding_top_20px"></div>
+                </div>
+            </div>
+
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">application fee</b></div>
+                <div class="padding_top_10px width_100">
+                    <div class="padding_top_5px  ">
+                        <span class="padding_right_10px text_transform_none">The non-refundable $25 application fee
+                            (C$75 International, $0 ALP, $0 Achieve, $0 EAP) must be received for your application to be
+                            processed. Mail this application to the address indicated or drop it off at your nearest
+                            NSCC campus. <b>Please do not send cash, and do not send credit card information by
+                                email.</b> </span>
+                    </div>
+                    <div class="text_transform_none padding_top_10px">
+                        <input type="checkbox" name="" id=""><label for=""
+                            class="padding_right_10px padding_left_5px">credit
+                            card</label>
+                        <input type="checkbox" name="" id=""><label for=""
+                            class="padding_right_10px padding_left_5px">cheque/money order
+                            (Payable to NSCC. No post-dated cheques.)</label>
+                        <input type="checkbox" name="" id=""><label for=""
+                            class="padding_right_10px padding_left_5px">cash, debit or
+                            visa debit(only when paying in person)</label>
+                    </div>
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="">credit card #:</label>
+                            <input type="text">
+                            <div class="font_size_s">(visa, mastercard, discover or american express)</div>
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">Exp.Date</label>
+                            <input type="text">
+                            <div class="font_size_s">(month/year)</div>
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">Name of cardholder</label>
+                            <input type="text">
+                            <div class="font_size_s">(as it appears on the card)</div>
+                        </div>
+                    </div>
+
+                    <div class="aline subcontainer padding_top_20px"></div>
+                </div>
+            </div>
+
+            <div class="padding_top_20px">
+                <div><b class=" color_blue ">certification</b></div>
+                <div class="padding_top_10px width_100">
+                    <div class="  ">
+                        <span class="padding_right_10px text_transform_none">I understand that it is my responsibility
+                            to arrange for the submission of transcripts and that the application will not be
+                            cionsidered complete until all required final documentation is received. I acknopwledge that
+                            all submited documents become the property of NSCC and will not be returned. I certify that
+                            the information in this application is accurate and correct to the best of my knowledge. I
+                            understand that the college will collect, use and disclose my personal information in a
+                            confidential manner that is consistent with the operation of a post-secondary institution.
+                            My consent is conditional upon Nova Scotia communityu college complying with their legal
+                            duties and obligations to manage the collection, use and disclosure of personal
+                            information.</span>
+                    </div>
+                    <div class="flex flex_row padding_top_5px">
+                        <div class="field_columnshow flex_grow_3">
+                            <label for="">Application signature</label>
+                            <input type="text">
+                        </div>
+                        <div class="field_columnshow  padding_left_10px">
+                            <label for="full_name">date(month/day/year)</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="padding_top_10px">
+                        <span class="text_transform_none">For information on how NSCC collects, uses and discloses
+                            personal information, please
+                            visit <a href=""
+                                class="color_blue font_bolder text_transform_none">nscc.ca/privacy</a></span>
+                    </div>
+
+                </div>
+                <div class="aline subcontainer padding_top_20px"></div>
+            </div>
+
+            <div class="padding_top_20px text_color_lightgray">
+                <div>For office use only</div>
+                <div class="flex flex_row padding_top_5px width_100">
+                    <div class="field_columnshow">
+                        <label for="">student ID</label>
+                        <input type="text">
+                    </div>
+                    <div class="field_columnshow  padding_left_10px">
+                        <label for="full_name">Receipt number</label>
+                        <input type="text">
+                    </div>
+                    <div class="field_columnshow  padding_left_5px">
+                        <label for="full_name">received(month/day/year)</label>
+                        <input type="text">
+                    </div>
+                    <div class="font_size_s text_color_black flex_grow_1  update_date">
+                        updated september 2021
+                    </div>
+                </div>
+
+            </div>
+
+
+
         </div>
     </form>
 
